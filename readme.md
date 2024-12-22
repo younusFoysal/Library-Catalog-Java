@@ -34,8 +34,52 @@ a. Implement comprehensive testing for your generic catalog and LibraryItem 
 
 b. Test scenarios should include adding and removing items, ensuring the catalog works with various types of library items. 
 
+###  Output
+```
 
+Library Catalog Menu:
+1. Add Item
+2. Remove Item
+3. View Item Details 
+4. Display All Items 
+5. Exit
+Enter your choice: 1
+Enter title: Learn Java
+Enter author: K.Sky
+Enter item ID: B002
+Item added: LibraryItem{title='Learn Java', author='K.Sky', itemID='B002'}
 
+Library Catalog Menu:
+1. Add Item
+2. Remove Item
+3. View Item Details
+4. Display All Items 
+5. Exit
+Enter your choice: 4
+Catalog Contents:
+LibraryItem{title='Harry Potter', author='J.K. Rowling', itemID='B001'} 
+LibraryItem{title='Learn Java', author='K.Sky', itemID='B002'}
+
+Library Catalog Menu:
+1. Add Item
+2. Remove Item
+3. View Item Details
+4. Display All Items 
+5. Exit
+Enter your choice: 2
+Enter item ID to remove: B002
+Item removed: LibraryItem{title='Learn Java', author='K.Sky', itemID='B002'}
+
+Library Catalog Menu:
+1. Add Item
+2. Remove Item
+3. View Item Details
+4. Display All Items 
+5. Exit
+Enter your choice: 4
+Catalog Contents:
+LibraryItem{title='Harry Potter', author='J.K. Rowling', itemID='B001'}
+```
 
 Guidelines
 Utilize generic classes and methods to create a flexible and reusable library catalog. 
